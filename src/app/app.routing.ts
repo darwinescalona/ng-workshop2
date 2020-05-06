@@ -9,7 +9,7 @@ import { ErrorComponent } from './pages/error.component';
 const routes: Routes = [
   { path: 'app', component: AppComponent },
   { path: 'error/:code', component: ErrorComponent },
-  { path: 'panel', loadChildren: () => import('./template/template.module').then(m => m.TemplateModule) },
+  // { path: 'panel', loadChildren: () => import('./template/template.module').then(m => m.TemplateModule) },
   { path: '', loadChildren: () => import('./modules/public/public.module').then(m => m.PublicModule) },
   { path: 'login', loadChildren: () => import('./modules/login/login.module').then(m => m.LoginModule) },
   { path: 'dashboard', loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule) },

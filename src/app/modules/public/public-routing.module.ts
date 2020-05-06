@@ -2,12 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { PublicComponent } from './public.component';
-import { MastheadComponent } from './components/masthead/masthead.component';
-import { ServicesComponent } from './components/services/services.component';
-import { ProtractorBrowser } from 'protractor';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { AboutComponent } from './components/about/about.component';
+import { MastheadComponent } from './pages/masthead/masthead.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
   {
