@@ -7,6 +7,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { CustomersComponent } from './pages/customers/customers.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
       {
         path: 'about', // child route path
         component: AboutComponent, // child route component that the router renders
+      },
+      {
+        path: 'customers', // child route path
+        component: CustomersComponent, // child route component that the router renders
       },
       {
         path: 'services', // child route path

@@ -69,13 +69,18 @@ mkdir src/app/modules/dashboard/pages
 
 ng generate component pages/error --export=false --flat=true --inlineStyle=true --inlineTemplate=true --module=app
 
-ng generate component modules/public/components/masthead --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+ng generate component modules/public/pages/masthead --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
 
-ng generate component modules/public/components/about --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+ng generate component modules/public/pages/about --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
 
-ng generate component modules/public/components/services --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+ng generate component modules/public/pages/services --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
 
-ng generate component modules/public/components/portfolio --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+ng generate component modules/public/pages/portfolio --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
 
-ng generate component modules/public/components/contact --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+ng generate component modules/public/pages/contact --export=false --flat=false --inlineStyle=true --inlineTemplate=true --module=public
+
+ng generate component modules/public/pages/customers --export=false --flat=false --module=public
+
+ng g s shared/services/customer
+
 

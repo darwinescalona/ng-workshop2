@@ -8,11 +8,25 @@ import { AboutComponent } from './pages/about/about.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CustomersComponent } from './pages/customers/customers.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
-  declarations: [PublicComponent, MastheadComponent, AboutComponent, ServicesComponent, PortfolioComponent, ContactComponent],
-  imports: [CommonModule, PublicRoutingModule],
+  declarations: [
+    PublicComponent,
+    MastheadComponent,
+    AboutComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    ContactComponent,
+    CustomersComponent
+  ],
+  imports: [
+    CommonModule,
+    SharedModule,
+    PublicRoutingModule
+  ],
   bootstrap: [PublicComponent],
 })
 export class PublicModule {}

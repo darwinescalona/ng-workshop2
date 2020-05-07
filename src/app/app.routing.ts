@@ -1,7 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from './shared/shared.module';
 import { ErrorComponent } from './pages/error.component';
